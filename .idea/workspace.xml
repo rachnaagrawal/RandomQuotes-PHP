@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b71c15a2-d61d-403e-a033-d1105ceecea9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/api/authors.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/api/quotes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/api/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/api/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -28,12 +31,12 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
-      <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
       <path value="$PROJECT_DIR$/vendor/slim/slim" />
       <path value="$PROJECT_DIR$/vendor/nikic/fast-route" />
       <path value="$PROJECT_DIR$/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1WeCNjyKxbSiTy8NlpAY1uEx4PC" />
@@ -47,9 +50,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/api" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Code\RandomQuotes-PHP\public\api" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Code\RandomQuotes-PHP\public\api" />
     </key>
@@ -77,6 +84,8 @@
       <option name="presentableId" value="Default" />
       <updated>1579500635863</updated>
       <workItem from="1579500638164" duration="967000" />
+      <workItem from="1579501692985" duration="432000" />
+      <workItem from="1579502658358" duration="532000" />
     </task>
     <task id="LOCAL-00001" summary="Starting work on php example app">
       <created>1579501496063</created>
@@ -85,7 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579501496063</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Starting work on php example app">
+      <created>1579501731350</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579501731350</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Removed vendor dir">
+      <created>1579501778624</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579501778624</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,17 +116,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starting work on php example app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting work on php example app" />
+    <MESSAGE value="Removed vendor dir" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed vendor dir" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="9" key="CommitChangelistDialog2" timestamp="1579501730661">
+    <state x="393" y="9" key="CommitChangelistDialog2" timestamp="1579501778113">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="9" key="CommitChangelistDialog2/0.0.1536.824/1046.-1080.1920.1040@0.0.1536.824" timestamp="1579501730661" />
-    <state x="362" y="147" key="Vcs.Push.Dialog.v2" timestamp="1579501739822">
+    <state x="393" y="9" key="CommitChangelistDialog2/0.0.1536.824/1046.-1080.1920.1040@0.0.1536.824" timestamp="1579501778113" />
+    <state x="362" y="147" key="Vcs.Push.Dialog.v2" timestamp="1579501781599">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="362" y="147" key="Vcs.Push.Dialog.v2/0.0.1536.824/1046.-1080.1920.1040@0.0.1536.824" timestamp="1579501739822" />
+    <state x="362" y="147" key="Vcs.Push.Dialog.v2/0.0.1536.824/1046.-1080.1920.1040@0.0.1536.824" timestamp="1579501781599" />
     <state x="471" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1579501695249">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
