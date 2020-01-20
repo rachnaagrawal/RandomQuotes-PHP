@@ -16,7 +16,7 @@ class Routes
             $response->withStatus(200)->write("{\"quote\": \"" . $quotes[$randomIndex] . "\", " .
                 "\"author\": \"" . $authors[$randomIndex] . "\", " .
                 "\"appVersion\": \"1.0.0\", " .
-                "\"environmentName\": \"" . getenv('ENVIRONMENT_NAME') . "\" " .
+                "\"environmentName\": \"" . (getenv('ENVIRONMENT_NAME') ?: 'Local') . "\" " .
                 "}");
             return $response;
         });
