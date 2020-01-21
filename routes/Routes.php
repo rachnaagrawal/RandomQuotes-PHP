@@ -8,7 +8,7 @@ class Routes
     {
         $app = new \Slim\App();
 
-        $app->get('/quote', function (Request $request, Response $response) {
+        $app->get('/api/quote', function (Request $request, Response $response) {
             $authors = file(__DIR__ . "/authors.txt", FILE_IGNORE_NEW_LINES);
             $quotes = file(__DIR__ . "/quotes.txt", FILE_IGNORE_NEW_LINES);
             $randomIndex = rand(0, count($authors) - 1);
