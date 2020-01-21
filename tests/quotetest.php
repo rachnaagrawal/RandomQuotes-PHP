@@ -12,7 +12,7 @@ class LibraryTestCase extends TestCase
     public function testLibraryGet() {
         $env = Environment::mock([
             'REQUEST_METHOD' => 'GET',
-            'REQUEST_URI'    => '/quote',
+            'REQUEST_URI'    => '/api/quote',
         ]);
         $req = Request::createFromEnvironment($env);
         $this->app->getContainer()['request'] = $req;

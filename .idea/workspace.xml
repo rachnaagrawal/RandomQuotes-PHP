@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b71c15a2-d61d-403e-a033-d1105ceecea9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pack.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/api/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/Routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.bat" beforeDir="false" afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/quotetest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/quotetest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +146,8 @@
       <workItem from="1579560788133" duration="2000" />
       <workItem from="1579560815435" duration="541000" />
       <workItem from="1579563402809" duration="256000" />
-      <workItem from="1579564488690" duration="5303000" />
+      <workItem from="1579564488690" duration="6312000" />
+      <workItem from="1579582598553" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="Starting work on php example app">
       <created>1579501496063</created>
@@ -188,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579506016802</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed up directory structure">
+      <created>1579578347820</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579578347820</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +202,8 @@
     <MESSAGE value="Removed vendor dir" />
     <MESSAGE value="Fixed up API response" />
     <MESSAGE value="Added tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tests" />
+    <MESSAGE value="Fixed up directory structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed up directory structure" />
   </component>
   <component name="WindowStateProjectService">
     <state x="4559" y="75" key="#CLI_Interpreters" timestamp="1579561017081">
@@ -231,11 +235,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="520" y="217" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1046.-1080.1920.1040@0.0.1536.824" timestamp="1579503777716" />
-    <state x="4809" y="23" key="CommitChangelistDialog2" timestamp="1579578309232">
+    <state x="4809" y="23" key="CommitChangelistDialog2" timestamp="1579578347725">
       <screen x="3826" y="0" width="3840" height="2100" />
     </state>
     <state x="393" y="9" key="CommitChangelistDialog2/0.0.1536.824/1046.-1080.1920.1040@0.0.1536.824" timestamp="1579506015961" />
-    <state x="4809" y="23" key="CommitChangelistDialog2/3826.0.3840.2100/0.2174.3840.2060/1906.1094.1920.1040/7666.1073.1920.1040@3826.0.3840.2100" timestamp="1579578309232" />
+    <state x="4809" y="23" key="CommitChangelistDialog2/3826.0.3840.2100/0.2174.3840.2060/1906.1094.1920.1040/7666.1073.1920.1040@3826.0.3840.2100" timestamp="1579578347725" />
     <state x="4768" y="484" key="FileChooserDialogImpl" timestamp="1579561045406">
       <screen x="3826" y="0" width="2560" height="1400" />
     </state>
@@ -260,10 +264,11 @@
       <screen x="3826" y="0" width="3840" height="2100" />
     </state>
     <state x="5247" y="727" width="1766" height="1225" key="SettingsEditor/3826.0.3840.2100/0.2174.3840.2060/1906.1094.1920.1040/7666.1073.1920.1040@3826.0.3840.2100" timestamp="1579563658014" />
-    <state x="362" y="147" key="Vcs.Push.Dialog.v2" timestamp="1579506019365">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="4731" y="375" key="Vcs.Push.Dialog.v2" timestamp="1579578349588">
+      <screen x="3826" y="0" width="3840" height="2100" />
     </state>
     <state x="362" y="147" key="Vcs.Push.Dialog.v2/0.0.1536.824/1046.-1080.1920.1040@0.0.1536.824" timestamp="1579506019365" />
+    <state x="4731" y="375" key="Vcs.Push.Dialog.v2/3826.0.3840.2100/0.2174.3840.2060/1906.1094.1920.1040/7666.1073.1920.1040@3826.0.3840.2100" timestamp="1579578349588" />
     <state x="4611" y="404" key="com.intellij.ide.util.TipDialog" timestamp="1579559500615">
       <screen x="3826" y="0" width="2560" height="1400" />
     </state>
