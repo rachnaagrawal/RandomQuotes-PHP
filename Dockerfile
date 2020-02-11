@@ -1,14 +1,16 @@
 FROM alpine:3.10
-LABEL Maintainer="Tim de Pater <code@trafex.nl>" \
-      Description="Lightweight container with Nginx 1.16 & PHP-FPM 7.3 based on Alpine Linux."
 
 # Install packages
 RUN apk --no-cache add php7 php7-fpm php7-mysqli php7-json php7-openssl php7-curl \
-    php7-zlib php7-xml php7-phar php7-intl php7-dom php7-xmlreader php7-ctype php7-session \
-    php7-mbstring php7-gd nginx supervisor curl
+    php7-zlib php7-xml php7-phar php7-intl php7-dom php7-xmlreader php7-xmlwriter php7-tokenizer php7-ctype php7-session \
+    php7-mbstring php7-gd nginx supervisor curl composer
 
 # Configure nginx
 COPY config/randomquotes.conf /etc/nginx/conf.d/randomquotes.conf
+# Remove the default site
+RUN rm /etc/nginx/conf.d/default.conf
+# Add the location for the PID file
+RUN mkdir /run/nginx
 
 # Configure PHP-FPM
 COPY config/fpm-pool.conf /etc/php7/php-fpm.d/www.conf
@@ -37,9 +39,6 @@ WORKDIR /var/www/html
 COPY --chown=nobody public/ /var/www/html/public
 COPY --chown=nobody routes/ /var/www/html/routes
 COPY --chown=nobody composer.json /var/www/html
-
-COPY config/composer.sh /tmp/composer.sh
-RUN chmod +x /tmp/composer.sh; /tmp/composer.sh
 RUN cd /var/www/html; composer install
 
 # Expose the port nginx is reachable on

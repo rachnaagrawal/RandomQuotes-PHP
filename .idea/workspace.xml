@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b71c15a2-d61d-403e-a033-d1105ceecea9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/composer.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/composer.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/randomquotes.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/randomquotes.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +159,7 @@
       <workItem from="1580162144379" duration="1198000" />
       <workItem from="1581453733709" duration="17000" />
       <workItem from="1581453786246" duration="944000" />
+      <workItem from="1581454832362" duration="3515000" />
     </task>
     <task id="LOCAL-00001" summary="Starting work on php example app">
       <created>1579501496063</created>
