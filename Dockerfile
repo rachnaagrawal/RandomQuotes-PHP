@@ -38,6 +38,8 @@ COPY --chown=nobody public/ /var/www/html/public
 COPY --chown=nobody routes/ /var/www/html/routes
 COPY --chown=nobody composer.json /var/www/html
 
+COPY config/composer.sh /tmp/composer.sh
+RUN chmod +x /tmp/composer.sh; /tmp/composer.sh
 RUN cd /var/www/html; composer install
 
 # Expose the port nginx is reachable on
