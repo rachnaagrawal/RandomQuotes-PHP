@@ -28,9 +28,6 @@ RUN chown -R nobody.nobody /var/www/html && \
   chown -R nobody.nobody /var/tmp/nginx && \
   chown -R nobody.nobody /var/log/nginx
 
-# Make the document root a volume
-VOLUME /var/www/html
-
 # Switch to use a non-root user from here on
 USER nobody
 
@@ -39,7 +36,7 @@ WORKDIR /var/www/html
 COPY --chown=nobody public/ /var/www/html/public
 COPY --chown=nobody routes/ /var/www/html/routes
 COPY --chown=nobody composer.json /var/www/html
-RUN cd /var/www/html; composer install
+RUN composer install -vvv
 
 # Expose the port nginx is reachable on
 EXPOSE 8080
