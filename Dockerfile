@@ -36,6 +36,9 @@ USER nobody
 WORKDIR /var/www/html
 COPY --chown=nobody public/ /var/www/html/public
 COPY --chown=nobody routes/ /var/www/html/routes
+COPY --chown=nobody composer.json /var/www/html
+
+RUN cd /var/www/html; composer install
 
 # Expose the port nginx is reachable on
 EXPOSE 8080

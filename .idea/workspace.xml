@@ -156,7 +156,7 @@
       <workItem from="1579830493592" duration="614000" />
       <workItem from="1580162144379" duration="1198000" />
       <workItem from="1581453733709" duration="17000" />
-      <workItem from="1581453786246" duration="669000" />
+      <workItem from="1581453786246" duration="792000" />
     </task>
     <task id="LOCAL-00001" summary="Starting work on php example app">
       <created>1579501496063</created>
@@ -214,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581454297049</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fixed paths">
+      <created>1581454478817</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581454478817</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +235,8 @@
     <MESSAGE value="Fixed up directory structure" />
     <MESSAGE value="Fixed up test" />
     <MESSAGE value="Started work on Docker image" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started work on Docker image" />
+    <MESSAGE value="Fixed paths" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed paths" />
   </component>
   <component name="WindowStateProjectService">
     <state x="4559" y="75" key="#CLI_Interpreters" timestamp="1579561017081">
@@ -260,11 +268,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="520" y="217" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1046.-1080.1920.1040@0.0.1536.824" timestamp="1579503777716" />
-    <state x="4809" y="23" key="CommitChangelistDialog2" timestamp="1581454296943">
+    <state x="4809" y="23" key="CommitChangelistDialog2" timestamp="1581454478744">
       <screen x="3826" y="0" width="3840" height="2100" />
     </state>
     <state x="393" y="9" key="CommitChangelistDialog2/0.0.1536.824/1046.-1080.1920.1040@0.0.1536.824" timestamp="1579506015961" />
-    <state x="4809" y="23" key="CommitChangelistDialog2/3826.0.3840.2100/0.2174.3840.2060/1906.1094.1920.1040/7666.1073.1920.1040@3826.0.3840.2100" timestamp="1581454296943" />
+    <state x="4809" y="23" key="CommitChangelistDialog2/3826.0.3840.2100/0.2174.3840.2060/1906.1094.1920.1040/7666.1073.1920.1040@3826.0.3840.2100" timestamp="1581454478744" />
     <state x="4768" y="484" key="FileChooserDialogImpl" timestamp="1579561045406">
       <screen x="3826" y="0" width="2560" height="1400" />
     </state>
@@ -293,11 +301,11 @@
       <screen x="3826" y="0" width="3840" height="2100" />
     </state>
     <state x="5247" y="727" width="1766" height="1225" key="SettingsEditor/3826.0.3840.2100/0.2174.3840.2060/1906.1094.1920.1040/7666.1073.1920.1040@3826.0.3840.2100" timestamp="1581454322070" />
-    <state x="4731" y="375" key="Vcs.Push.Dialog.v2" timestamp="1581454328478">
+    <state x="4731" y="375" key="Vcs.Push.Dialog.v2" timestamp="1581454479938">
       <screen x="3826" y="0" width="3840" height="2100" />
     </state>
     <state x="362" y="147" key="Vcs.Push.Dialog.v2/0.0.1536.824/1046.-1080.1920.1040@0.0.1536.824" timestamp="1579506019365" />
-    <state x="4731" y="375" key="Vcs.Push.Dialog.v2/3826.0.3840.2100/0.2174.3840.2060/1906.1094.1920.1040/7666.1073.1920.1040@3826.0.3840.2100" timestamp="1581454328478" />
+    <state x="4731" y="375" key="Vcs.Push.Dialog.v2/3826.0.3840.2100/0.2174.3840.2060/1906.1094.1920.1040/7666.1073.1920.1040@3826.0.3840.2100" timestamp="1581454479938" />
     <state x="4611" y="404" key="com.intellij.ide.util.TipDialog" timestamp="1579559500615">
       <screen x="3826" y="0" width="2560" height="1400" />
     </state>
