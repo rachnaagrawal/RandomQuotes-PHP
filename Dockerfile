@@ -39,7 +39,7 @@ COPY --chown=nobody composer.json /var/www/html
 RUN composer install -vvv
 
 # Expose the port nginx is reachable on
-EXPOSE 80
+EXPOSE 8080
 
 # Let supervisord start nginx & php-fpm
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
