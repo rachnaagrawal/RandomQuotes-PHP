@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b71c15a2-d61d-403e-a033-d1105ceecea9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/Routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/quotetest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/quotetest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +167,8 @@
       <workItem from="1581466784969" duration="594000" />
       <workItem from="1584667324098" duration="253000" />
       <workItem from="1612908998480" duration="1049000" />
-      <workItem from="1612919710783" duration="2331000" />
+      <workItem from="1612919710783" duration="3063000" />
+      <workItem from="1612995257258" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="Starting work on php example app">
       <created>1579501496063</created>
@@ -296,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612920108649</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Updated dependencies">
+      <created>1612923274545</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1612923274545</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
