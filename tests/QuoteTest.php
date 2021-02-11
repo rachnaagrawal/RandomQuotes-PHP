@@ -2,7 +2,7 @@
 use Slim\Http\Environment;
 use Slim\Http\Request;
 use PHPUnit\Framework\TestCase;
-class LibraryTestCase extends TestCase
+class QuoteTest extends TestCase
 {
     protected $app;
     public function setUp(): void

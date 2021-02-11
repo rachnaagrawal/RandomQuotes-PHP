@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b71c15a2-d61d-403e-a033-d1105ceecea9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quotetest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/quotetest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/quotetest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/QuoteTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +26,7 @@
       </set>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
@@ -80,6 +82,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -105,17 +108,22 @@
       <recent name="C:\Code\RandomQuotes-PHP\public" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.LibraryTestCase">
+  <component name="RunManager" selected="PHPUnit.QuoteTest">
     <configuration name="LibraryTestCase" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="LibraryTestCase" file="$PROJECT_DIR$/tests/quotetest.php" scope="Class" />
+      <TestRunner class="LibraryTestCase" file="$PROJECT_DIR$/tests/QuoteTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <configuration name="LibraryTestCase.testLibraryGet" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="LibraryTestCase" file="$PROJECT_DIR$/tests/quotetest.php" method="testLibraryGet" scope="Method" />
+      <TestRunner class="LibraryTestCase" file="$PROJECT_DIR$/tests/QuoteTest.php" method="testLibraryGet" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="QuoteTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="QuoteTest" file="$PROJECT_DIR$/tests/QuoteTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.QuoteTest" />
         <item itemvalue="PHPUnit.LibraryTestCase" />
         <item itemvalue="PHPUnit.LibraryTestCase.testLibraryGet" />
       </list>
@@ -169,6 +177,7 @@
       <workItem from="1612908998480" duration="1049000" />
       <workItem from="1612919710783" duration="3063000" />
       <workItem from="1612995257258" duration="38000" />
+      <workItem from="1613003552953" duration="1126000" />
     </task>
     <task id="LOCAL-00001" summary="Starting work on php example app">
       <created>1579501496063</created>
