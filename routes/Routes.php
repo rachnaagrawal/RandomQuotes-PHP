@@ -4,7 +4,6 @@ use \Psr\Http\Message\ResponseInterface as Response;
 use Slim\Factory\AppFactory;
 use Slim\Factory\ServerRequestCreatorFactory;
 
-
 class Routes
 {
     private $app;
