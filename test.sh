@@ -1,1 +1,1 @@
-./vendor/bin/phpunit ./tests/quotetest.php
+./vendor/bin/phpunit ./tests/QuoteTest.php

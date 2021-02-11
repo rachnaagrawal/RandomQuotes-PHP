@@ -2,11 +2,17 @@
 use \Psr\Http\Message\ServerRequestInterface as Request;
 use \Psr\Http\Message\ResponseInterface as Response;
 use Slim\Factory\AppFactory;
+use Slim\Factory\ServerRequestCreatorFactory;
+
+
 class Routes
 {
     private $app;
     public function __construct()
     {
+        AppFactory::setSlimHttpDecoratorsAutomaticDetection(false);
+        ServerRequestCreatorFactory::setSlimHttpDecoratorsAutomaticDetection(false);
+
         $app = AppFactory::create();
 
         $app->get('/api/quote', function (Request $request, Response $response) {

@@ -1,22 +1,28 @@
 <?php
-use Slim\Http\Environment;
-use Slim\Http\Request;
 use PHPUnit\Framework\TestCase;
+use Psr\Http\Message\ServerRequestInterface;
+use Slim\Psr7\Factory\ServerRequestFactory;
+
 class QuoteTest extends TestCase
 {
     protected $app;
+
     public function setUp(): void
     {
         $this->app = (new Routes())->get();
     }
+
     public function testLibraryGet() {
-        $env = Environment::mock([
-            'REQUEST_METHOD' => 'GET',
-            'REQUEST_URI'    => '/api/quote',
-        ]);
-        $req = Request::createFromEnvironment($env);
-        $this->app->getContainer()['request'] = $req;
-        $response = $this->app->run(true);
-        $this->assertSame($response->getStatusCode(), 200);
+        $request = $this->createRequest('GET', '/api/quote');
+        $response = $this->app->handle($request);
+        $this->assertSame(200, $response->getStatusCode());
+    }
+
+    protected function createRequest(
+        string $method,
+        $uri,
+        array $serverParams = []
+    ): ServerRequestInterface {
+        return (new ServerRequestFactory())->createServerRequest($method, $uri, $serverParams);
     }
 }

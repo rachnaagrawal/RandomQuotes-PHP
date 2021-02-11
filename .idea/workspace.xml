@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b71c15a2-d61d-403e-a033-d1105ceecea9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/RandomQuotes-PHP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RandomQuotes-PHP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quotetest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/QuoteTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/Routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/QuoteTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/QuoteTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +76,11 @@
       <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
       <path value="$PROJECT_DIR$/vendor/psr/log" />
       <path value="$PROJECT_DIR$/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/vendor/slim/http" />
+      <path value="$PROJECT_DIR$/vendor/slim/psr7" />
+      <path value="$PROJECT_DIR$/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
     </include_path>
   </component>
   <component name="ProjectId" id="1WeCNjyKxbSiTy8NlpAY1uEx4PC" />
@@ -177,7 +187,7 @@
       <workItem from="1612908998480" duration="1049000" />
       <workItem from="1612919710783" duration="3063000" />
       <workItem from="1612995257258" duration="38000" />
-      <workItem from="1613003552953" duration="1126000" />
+      <workItem from="1613003552953" duration="1894000" />
     </task>
     <task id="LOCAL-00001" summary="Starting work on php example app">
       <created>1579501496063</created>
@@ -312,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612923274545</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Fixing up tests">
+      <created>1613005362986</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1613005362986</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,6 +362,18 @@
     <MESSAGE value="Use port 80 for consistency with other samples" />
     <MESSAGE value="Have to use port 8080 because we are not running as root" />
     <MESSAGE value="Updated dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated dependencies" />
+    <MESSAGE value="Fixing up tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing up tests" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/slim/slim/Slim/Factory/AppFactory.php</url>
+          <line>143</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
