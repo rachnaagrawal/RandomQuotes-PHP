@@ -27,6 +27,11 @@ class Routes
             return $response;
         });
 
+        $app->get('/fpm-ping', function (Request $request, Response $response) {
+            $response->withStatus(200);
+            return $response;
+        });
+
         $this->app = $app;
     }
 

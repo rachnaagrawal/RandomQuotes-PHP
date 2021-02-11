@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b71c15a2-d61d-403e-a033-d1105ceecea9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/Routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Routes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +181,8 @@
       <workItem from="1612908998480" duration="1049000" />
       <workItem from="1612919710783" duration="3063000" />
       <workItem from="1612995257258" duration="38000" />
-      <workItem from="1613003552953" duration="2429000" />
+      <workItem from="1613003552953" duration="2531000" />
+      <workItem from="1613011190322" duration="140000" />
     </task>
     <task id="LOCAL-00001" summary="Starting work on php example app">
       <created>1579501496063</created>
@@ -332,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613006182725</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Fixed up routes">
+      <created>1613006802398</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1613006802398</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +372,8 @@
     <MESSAGE value="Have to use port 8080 because we are not running as root" />
     <MESSAGE value="Updated dependencies" />
     <MESSAGE value="Fixing up tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing up tests" />
+    <MESSAGE value="Fixed up routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed up routes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
